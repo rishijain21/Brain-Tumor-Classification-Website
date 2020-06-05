@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--
+Template Name: Splash
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>CNN Results</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<script type = "text/javascript">
+	function reDirect() {
+	   window.open('https://medium.com/@sartajbhuvaji/brain-tumor-classification-546a72d4103b', '_blank');
+	}
+  //-->
+  </script>
+  
+</head>
+<body id="top" class="homepage"><!-- Homepage class is only used on the homepage in conjunction with the slider -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="../index.html">B.E Project</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <!-- ################################################################################################ -->
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a class="drop" href="#">Information</a>
+          <ul>
+            <li><a href="../doctor page/doctor_info.html">Doctor Information</a></li>
+	    <li><a href="../faq/index.html">FAQ's</a></li>
+          </ul>
+        </li>
+
+        <li><a class="drop" href="#">Results</a>
+          <ul>
+            <li><a href="../results/ANN-result.html">Artificial Neural Network Models</a></li>
+            <li><a href="../results/CNN-result.html">Convolution Neural Network Models</a></li>
+            <li><a href="../results/TNN-result.html">Transfer Learning Models</a></li>
+            <li><a href="../results/Summary-Result.html">Summary</a></li>
+          </ul>
+        </li>
+
+
+        <li><a href="../about us/index.html">About Us</a></li>
+        <!-- ################################################################################################ -->
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center clear">
+      <div class="btmspace-80">
+        <h2 class="font-x2 bold underlined">Convolution Neural Network</h2>
+        <p>Convolutional Neural Networks (CNN) is one of the variants of neural networks used heavily in the field of Computer Vision. It derives its name from the type of hidden layers it consists of. The hidden layers of a CNN typically consist of convolutional layers, pooling layers, fully connected layers, and normalization layers. Here it simply means that instead of using the normal activation functions, convolution and pooling functions are used as activation functions.
+		</p>
+          
+          <p>CNN learns the filters automatically without mentioning it explicitly. These filters help in extracting the right and relevant features from the input data.CNN captures the spatial features from an image. Spatial features refer to the arrangement of pixels and the relationship between them in an image. They help us in identifying the object accurately, the location of an object, as well as its relation with other objects in an image.CNN also follows the concept of parameter sharing. A single filter is applied across different parts of an input to produce a feature map.
+          </p>
+          <p>
+          	 Convolutional Neural Networks have three important architectural features.
+
+			Local Connectivity: Neurons in one layer are only connected to neurons in the next layer that are spatially close to them. This design trims the vast majority of connections between consecutive layers, but keeps the ones that carry the most useful information. The assumption made here is that the input data has spatial significance, or in the example of computer vision, the relationship between two distant pixels is probably less significant than two close neighbors.
+
+			Shared Weights: This is the concept that makes CNNs "convolutional." By forcing the neurons of one layer to share weights, the forward pass (feeding data through the network) becomes the equivalent of convolving a filter over the image to produce a new image. The training of CNNs then becomes the task of learning filters (deciding what features you should look for in the data.)
+
+			Pooling and ReLU: CNNs have two non-linearities: pooling layers and ReLU functions. Pooling layers consider a block of input data and simply pass on the maximum value. Doing this reduces the size of the output and requires no added parameters to learn, so pooling layers are often used to regulate the size of the network and keep the system below a computational limit. The ReLU function takes one input, x, and returns the maximum of {0, x}. ReLU(x) = argmax(x, 0). This introduces a similar effect to tanh(x) or sigmoid(x) as non-linearities to increase the model's expressive power.
+          </p>     
+  </main>
+
+</div>
+
+  <div class="wrapper row3" style="background: url(img2.jpg); background-size: 100% 38%; background-repeat: no-repeat">
+  		 <div class="center clear">
+     	 <div class="btmspace-80">
+     	 <br>
+     	 <br>
+     	 <br>
+        <h2 class="font-x2 bold underlined" style="color:white;">Table</h2>
+
+        <table style="width:70%" align="center">
+		  <tr>
+		    <th>CNN Models</th>
+		    <th>Test Accuracy</th>
+		    <th>Test Loss</th>
+		    <th>F1-Score</th>
+
+		  </tr>
+		  <tr>
+		    <td>1-conv-32-nodes-0-dense</td>
+		    <td>86</td>
+		    <td>1.77</td>
+		    <td>86</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-32-nodes-0-dense</td>
+		    <td>85</td>
+		    <td>0.76</td>
+		    <td>85</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-32-nodes-0-dense</td>
+		    <td>90</td>
+		    <td>0.48</td>
+		    <td>90</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-64-nodes-0-dense</td>
+		    <td>85</td>
+		    <td>2.39</td>
+		    <td>85</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-64-nodes-0-dense</td>
+		    <td>89</td>
+		    <td>0.55</td>
+		    <td>89</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-64-nodes-0-dense</td>
+		    <td>89</td>
+		    <td>0.55</td>
+		    <td>89</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-128-nodes-0-dense</td>
+		    <td>84</td>
+		    <td>1.36</td>
+		    <td>84</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-128-nodes-0-dense</td>
+		    <td>82</td>
+		    <td>1.01</td>
+		    <td>81</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-128-nodes-0-dense</td>
+		    <td>86</td>
+		    <td>0.95</td>
+		    <td>86</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-32-nodes-1-dense</td>
+		    <td>24</td>
+		    <td>1.38</td>
+		    <td>10</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-32-nodes-1-dense</td>
+		    <td> 88</td>
+		    <td>0.59</td>
+		    <td>89</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-32-nodes-1-dense</td>
+		    <td>86</td>
+		    <td>0.58</td>
+		    <td>86</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-64-nodes-1-dense</td>
+		    <td>26</td>
+		    <td>1.36</td>
+		    <td>13</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-64-nodes-1-dense</td>
+		    <td>88</td>
+		    <td>0.48</td>
+		    <td>89</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-64-nodes-1-dense</td>
+		    <td>88</td>
+		    <td>0.54</td>
+		    <td>89</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-128-nodes-1-dense</td>
+		    <td>85</td>
+		    <td>0.73</td>
+		    <td>85</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-128-nodes-1-dense</td>
+		    <td>85</td>
+		    <td>0.77</td>
+		    <td>83</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-128-nodes-1-dense</td>
+		    <td>90</td>
+		    <td>0.43</td>
+		    <td>91</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-32-nodes-2-dense</td>
+		    <td>24</td>
+		    <td>1.38</td>
+		    <td>10</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-32-nodes-2-dense</td>
+		    <td>24</td>
+		    <td>1.38</td>
+		    <td>10</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-32-nodes-2-dense</td>
+		    <td>63</td>
+		    <td>0.84</td>
+		    <td>57</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-64-nodes-2-dense</td>
+		    <td>24</td>
+		    <td>1.38</td>
+		    <td>10</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-64-nodes-2-dense</td>
+		    <td>83</td>
+		    <td>0.70</td>
+		    <td>83</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-64-nodes-2-dense</td>
+		    <td>85</td>
+		    <td>0.55</td>
+		    <td>86</td>
+		  </tr>
+		  <tr>
+		    <td>1-conv-128-nodes-2-dense</td>
+		    <td>24</td>
+		    <td>0.00</td>
+		    <td>10</td>
+		  </tr>
+		  <tr>
+		    <td>2-conv-128-nodes-2-dense</td>
+		    <td>85</td>
+		    <td>0.78</td>
+		    <td>87</td>
+		  </tr>
+		  <tr>
+		    <td>3-conv-128-nodes-2-dense</td>
+		    <td>85</td>
+		    <td>0.64</td>
+		    <td>85</td>
+		  </tr>
+		 
+		</table>
+
+
+
+  </div>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1 bgded" style="background-image:url('tumor-prep.jpg');">
+  <div class="overlay">
+    <div class="container clear"> 
+      <!-- ################################################################################################ -->
+      <div class="btmspace-80 center">
+        <h2 class="font-x2 bold underlined">Best CNN Model Statistics</h2>
+        <p>Here we present the statistics of the best CNN model.</p>
+      </div>
+      <ul class="pr-charts nospace group center">
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="95"><i></i></div>
+          <p>Accuracy</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="4.3"><i></i></div>
+          <p>Loss(*10)</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="6.5"><i></i></div>
+          <p>Validation Loss(*10)</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="90"><i></i></div>
+          <p>Validation Accuracy</p>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center clear">
+      <div class="btmspace-80">
+        <h2 class="font-x2 bold underlined">Convolution Neural Network</h2>
+       <p>
+        Among the Twenty-seven so models trained on the training data and validated on Testing data, we can see that a CNN model consisting of 3 Convolution layers and 1 Dense layer of 128 nodes yeilds higher accuracy and lower loss.
+       </p> 
+       <p>
+        Thus we tweeked the model obtained and our best CNN model consists of 3 Convolution Layers of filter size of 64 and 2 Dense Layers each consisting of 128 nodes within the layer.The input layer was of size (150,150,3). This model was trained for 50 epochs, using the loss function 'sparse-categorical-crossentropy' and activation function 'ReLu' after each layer. However 'softmax' activation was used for output layer. The batch size of '64' and 'RMSprop' optimizer was used. However to prevent overfitting of data we introduce a slight drop-out of '10%' after few layers. The learning rate of '0.001' combined with few callbacks of Early-Stopping, Loss Monitering were called in the fit function.Thus the 'hdf5' file was generated. Below are the graphs for better understanding of how the training process for the model went.
+       </p>
+       	<div id="divleft" style="float: left;">
+        <img src="CNN(accuracy) labelled.png" alt="accuracy">
+        </div>
+
+        <div id="divright" style="float: right;">
+        <img src="CNN loss labelled.png" alt="loss">
+        </div>
+  </main>
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="title">College Details</h6>
+      <address class="btmspace-15">
+      PES Modern College Of Engineering.<br>
+      Computer Department 2020<br>
+      1186/A, Off J.M. Road, Shivajinagar,<br>
+      Pune.<br>
+      411005
+      </address>
+      <ul class="nospace">
+        <li class="btmspace-10"><span class="fa fa-phone"></span> (020) 2553 3638</li>
+        <li><span class="fa fa-envelope-o"></span> pesmcoe@moderncoe.edu.in</li>
+	<p><a href="http://moderncoe.edu.in/">Website &raquo;</a></p>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Guide Details</h6>
+      <ul class="nospace linklist">
+        <li><b>Project Guide:</b></li>
+        <li>Mr. Santosh Nagargoje</li><br>
+        
+        
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">From The Blog</h6>
+      <article>
+        <h2 class="font-x1 nospace"><a href="#">Date</a></h2>
+        <time class="smallfont" datetime="2020-02-09">Sunday, 6<sup>th</sup>February 2020</time>
+      
+        <p>  
+        <h2 class="font-x1 nospace"><a href="#">Group Id</a></h2>
+        <p>02</p>
+        </p>
+
+      </article>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Grab Our Newsletter</h6>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+         
+          <button type="submit" onclick="reDirect()" value="submit">Project Article!</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<div id="preloader"><div></div></div><!-- Basic page preloader -->
+<script>$(window).load(function(){$("#preloader div").delay(500).fadeOut();$("#preloader").delay(800).fadeOut("slow");});</script>
+<!-- / Homepage specific -->
+</body>
+</html>

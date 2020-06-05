@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+Template Name: Splash
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Summary</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<script type = "text/javascript">
+	function reDirect() {
+	   window.open('https://medium.com/@sartajbhuvaji/brain-tumor-classification-546a72d4103b', '_blank');
+	}
+  //-->
+  </script>
+
+  
+</head>
+<body id="top" class="homepage"><!-- Homepage class is only used on the homepage in conjunction with the slider -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="../index.html">B.E Project</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <!-- ################################################################################################ -->
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a class="drop" href="#">Information</a>
+          <ul>
+            <li><a href="../doctor page/doctor_info.html">Doctor Information</a></li>
+	    <li><a href="../faq/index.html">FAQ's</a></li>
+          </ul>
+        </li>
+
+        <li><a class="drop" href="#">Results</a>
+          <ul>
+            <li><a href="../results/ANN-result.html">Artificial Neural Network Models</a></li>
+            <li><a href="../results/CNN-result.html">Convolution Neural Network Models</a></li>
+            <li><a href="../results/TNN-result.html">Transfer Learning Models</a></li>
+            <li><a href="../results/Summary-Result.html">Summary</a></li>
+          </ul>
+        </li>
+
+
+        <li><a href="../about us/index.html">About Us</a></li>
+        <!-- ################################################################################################ -->
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center clear">
+      <div class="btmspace-80">
+        <h2 class="font-x2 bold underlined">Summary</h2>
+        <h2 class="font-x2 bold underlined"> Ensemble Learning</h2>
+        <p>
+          So we have created multiple models using ANN, CNN, TL and these models have various accuracies and F1-Scores. To best use the features of each model
+          we use 'Ensemble Learning'! In the world of Statistics and Machine Learning, Ensemble learning techniques attempt to make the performance of the predictive models better by improving their accuracy. Ensemble Learning is a process using which multiple machine learning models (such as classifiers) are strategically constructed to solve a particular problem. They combine the decisions from multiple models to improve the overall performance. There are three ways Max Voting, Averaging, Weighted Averaging. The max voting method is generally used for classification problems. In this technique, multiple models are used to make predictions for each data point. The predictions by each model are considered as a ‘vote’. The predictions which we get from the majority of the models are used as the final prediction. Similar to the max voting technique, multiple predictions are made for each data point in averaging. In this method, we take an average of predictions from all the models and use it to make the final prediction. Averaging can be used for making predictions in regression problems or while calculating probabilities for classification problems. This is an extension of the averaging method. All models are assigned different weights defining the importance of each model for prediction.
+        </p>
+        <p>
+        An ensemble is itself a supervised learning algorithm, because it can be trained and then used to make predictions. The trained ensemble, therefore, represents a single hypothesis. This hypothesis, however, is not necessarily contained within the hypothesis space of the models from which it is built. Thus, ensembles can be shown to have more flexibility in the functions they can represent. This flexibility can, in theory, enable them to over-fit the training data more than a single model would, but in practice, some ensemble techniques (especially bagging) tend to reduce problems related to over-fitting of the training data.	
+        </p>
+        <p>
+        Bagging : Bagging is a hugely popular ensembling method which is used in algorithms like Random Forest. It gains accuracy by not only averaging the models but also trying to create models that are as uncorrelated as possible by giving them different training sets. It creates the data-set using sampling with replacement a simple but sufficient data sampling technique. To implement this we will create a method called subsample and call it for every model to create its individual data-set. 
+    	</p>
+    	<p>
+    	Boosting: Boosting is a sequential process, where each subsequent model tries to correct the errors of the previous model. Therefore the succeeding models are dependent on the previous models and we need to train the models in sequence instead of parallel.	
+
+    	</p>
+  </main>
+
+</div>
+
+ 
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1 bgded" style="background-image:url('or2.jpg');">
+  <div class="overlay">
+    <div class="container clear"> 
+      <!-- ################################################################################################ -->
+      <div class="btmspace-80 center">
+        <h2 class="font-x2 bold underlined">Best Model Statistics</h2>
+        <p>Here we present the statistics of the best model.</p>
+      </div>
+      <ul class="pr-charts nospace group center">
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="95"><i></i></div>
+          <p>Accuracy</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="7.26"><i></i></div>
+          <p>Loss(*10)</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="9.2"><i></i></div>
+          <p>Validation Loss(*10)</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="94"><i></i></div>
+          <p>Validation Accuracy</p>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center clear">
+      <div class="btmspace-80">
+        <h2 class="font-x2 bold underlined">Transfer Learning Models</h2>
+       <p>
+       	So finally we have 3 best models from each category. We take voting among these models and the class with maximum votes is the output. This strategy helps us avoid false positives.
+        The final models are deployed on AWS using 'Flask' framework.
+      </p>
+  </main>
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="title">College Details</h6>
+      <address class="btmspace-15">
+      PES Modern College Of Engineering.<br>
+      Computer Department 2020<br>
+      1186/A, Off J.M. Road, Shivajinagar,<br>
+      Pune.<br>
+      411005
+      </address>
+      <ul class="nospace">
+        <li class="btmspace-10"><span class="fa fa-phone"></span> (020) 2553 3638</li>
+        <li><span class="fa fa-envelope-o"></span> pesmcoe@moderncoe.edu.in</li>
+	<p><a href="http://moderncoe.edu.in/">Website &raquo;</a></p>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Guide Details</h6>
+      <ul class="nospace linklist">
+        <li><b>Project Guide:</b></li>
+        <li>Mr. Santosh Nagargoje</li><br>
+        
+        
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">From The Blog</h6>
+      <article>
+        <h2 class="font-x1 nospace"><a href="#">Date</a></h2>
+        <time class="smallfont" datetime="2020-02-09">Sunday, 6<sup>th</sup>February 2020</time>
+      
+        <p>  
+        <h2 class="font-x1 nospace"><a href="#">Group Id</a></h2>
+        <p>02</p>
+        </p>
+
+      </article>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Grab Our Newsletter</h6>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+         
+          <button type="submit" onclick="reDirect()" value="submit">Project Article!</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<div id="preloader"><div></div></div><!-- Basic page preloader -->
+<script>$(window).load(function(){$("#preloader div").delay(500).fadeOut();$("#preloader").delay(800).fadeOut("slow");});</script>
+<!-- / Homepage specific -->
+</body>
+</html>

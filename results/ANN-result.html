@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!--
+Template Name: Splash
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>ANN Results</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<!--link rel="stylesheet" type="text/css" href="styleAnn.css"//-->
+
+<script type = "text/javascript">
+  function reDirect() {
+     window.open('https://medium.com/@sartajbhuvaji/brain-tumor-classification-546a72d4103b', '_blank');
+  }
+//-->
+</script>
+
+
+
+</head>
+<body id="top" class="homepage"><!-- Homepage class is only used on the homepage in conjunction with the slider -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="../index.html">B.E Project</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <!-- ################################################################################################ -->
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a class="drop" href="#">Information</a>
+          <ul>
+            <li><a href="../doctor page/doctor_info.html">Doctor Information</a></li>
+	    <li><a href="../faq/index.html">FAQ's</a></li>
+          </ul>
+        </li>
+
+        <li><a class="drop" href="#">Results</a>
+          <ul>
+            <li><a href="../results/ANN-result.html">Artificial Neural Network Models</a></li>
+            <li><a href="../results/CNN-result.html">Convolution Neural Network Models</a></li>
+            <li><a href="../results/TNN-result.html">Transfer Learning Models</a></li>
+            <li><a href="../results/Summary-Result.html">Summary</a></li>
+          </ul>
+        </li>
+
+
+        <li><a href="../about us/index.html">About Us</a></li>
+        <!-- ################################################################################################ -->
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center clear">
+      <div class="btmspace-80">
+        <h2 class="font-x2 bold underlined">Artificial Neural Network</h2>
+        <p>An artificial neuron network (ANN) is a computational model based on the structure and functions of biological neural networks. Information that flows through the network affects the structure of the ANN because a neural network changes - or learns, in a sense - based on that input and output.
+        ANNs are considered nonlinear statistical data modeling tools where the complex relationships between inputs and outputs are modeled or patterns are found. ANN is also known as a neural network. ANNs have three layers that are interconnected. The first layer consists of input neurons. Those neurons send data on to the second layer, which in turn sends the output neurons to the third layer. Training an artificial neural network involves choosing from allowed models for which there are several associated algorithms.</p>
+        <p>Artificial Neural Networks are multi-layer fully-connected neural nets. They consist of an input layer, multiple hidden layers, and an output layer. Every node in one layer is connected to every other node in the next layer. We make the network deeper by increasing the number of hidden layers.</p>
+        <p>The training procedure works as follows:</p>
+        <p>
+        Randomly initialize the weights for all the nodes. There are smart initialization methods which we will explore in another article.
+        For every training example, perform a forward pass using the current weights and calculate the output of each node going from left to right. The final output is the value of the last node.
+        Compare the final output with the actual target in the training data, and measure the error using a loss function.
+        Perform a backwards pass from right to left and propagate the error to every individual node using backpropagation. Calculate each weight’s contribution to the error, and adjust the weights accordingly using gradient descent. Propagate the error gradients back starting from the last layer.</p>
+        <p>Backpropagation with gradient descent is literally the “magic” behind the deep learning models. It’s a rather long topic and involves some calculus, so we won’t go into the specifics in this applied deep learning series. For a detailed explanation of gradient descent refer here. A basic overview of backpropagation is available here. For a detailed mathematical treatment refer here and here. And for more advanced optimization algorithms refer here.
+        In the standard ML world this feed forward architecture is known as the multilayer perceptron. The difference between the ANN and perceptron is that ANN uses a non-linear activation function such as sigmoid but the perceptron uses the step function. And that non-linearity gives the ANN its great power.</p>
+  </main>
+
+</div>
+
+  <div class="wrapper row3" style="background: url(img2.jpg); background-size: 25% 25%">
+  		 <div class="center clear">
+     	 <div class="btmspace-80">
+     	 <br>
+     	 <br>
+     	 <br>
+        <h2 class="font-x2 bold underlined">Table</h2>
+
+        <table style="width:70%" align="center">
+		  <tr>
+		    <th>ANN Models</th>
+		    <th>Test Accuracy</th>
+		    <th>Test Loss</th>
+		    <th>F1-Score</th>
+
+		  </tr>
+		  <tr>
+		    <td>32-nodes-0-dense</td>
+		    <td>76</td>
+		    <td>213.54</td>
+		    <td>76</td>
+		  </tr>
+		  <tr>
+		    <td>64-nodes-0-dense</td>
+		    <td>77</td>
+		    <td>229.56</td>
+		    <td>77</td>
+		  </tr>
+		   <tr>
+		    <td>128-nodes-0-dense</td>
+		    <td>80</td>
+		    <td>181.14</td>
+		    <td>80</td>
+		  </tr>
+		   <tr>
+		    <td>32-nodes-1-dense</td>
+		    <td>24</td>
+		    <td>1.38</td>
+		    <td>10</td>
+		  </tr>
+		   <tr>
+		    <td>64-nodes-1-dense</td>
+		    <td>25</td>
+		    <td>1.38</td>
+		    <td>13</td>
+		  </tr>
+		   <tr>
+		    <td>128-nodes-1-dense</td>
+		    <td>25</td>
+		    <td>1.39</td>
+		    <td>10</td>
+		  </tr>
+		   <tr>
+		    <td>32-nodes-2-dense</td>
+		    <td>26</td>
+		    <td>1.33</td>
+		    <td>10</td>
+		  </tr>
+		   <tr>
+		    <td>64-nodes-2-dense</td>
+		    <td>24</td>
+		    <td>1.3</td>
+		    <td>10</td>
+		  </tr>
+		   <tr>
+		    <td>128-nodes-2-dense</td>
+		    <td>25</td>
+		    <td>1.38</td>
+		    <td>10</td>
+		  </tr>
+		  
+		</table>
+
+
+
+  </div>
+    <!-- ################################################################################################ -->
+    <div class="clear"></div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1 bgded" style="background-image:url('bacteria.jpg');background-repeat: no-repeat">
+  <div class="overlay">
+    <div class="container clear"> 
+      <!-- ################################################################################################ -->
+      <div class="btmspace-80 center">
+        <h2 class="font-x2 bold underlined">Best ANN Model Statistics</h2>
+        <p>Here we present the statistics of the best ANN model.</p>
+      </div>
+      <ul class="pr-charts nospace group center">
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="82"><i></i></div>
+          <p>Accuracy</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="21"><i></i></div>
+          <p>Loss</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="26"><i></i></div>
+          <p>Validation Loss</p>
+        </li>
+        <li class="pr-chart-ctrl" data-animate="false">
+          <div class="pr-chart" data-percent="80"><i></i></div>
+          <p>Validation Accuracy</p>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center clear">
+      <div class="btmspace-80">
+        <h2 class="font-x2 bold underlined">Artificial Neural Network</h2>
+       <p>
+       	Among the Ten so models trained on the training data and validated on Testing data, we can see that a ANN model consisting of 64 modes and 0 Dense layer yeilds higher accuracy and lower loss.
+       </p> 
+       <p>
+       	This was our best ANN model consists of '128' nodes and '0' dense Layer .The input layer was of size (150,150,3). This model was trained for '20' epochs, using the loss function 'sparse-categorical-crossentropy' and activation function 'ReLu' after each layer. The batck size of '32' and 'Adam' optimizer was used. However to prevent overfitting of data we introduce a slight drop-out of '33%' after few layers. The learning rate of '0.001' combined with few callbacks of Early-Stopping, Loss Monitering were called in the fit function.Thus the 'hdf5'file was generated. Below are the graphs for better understanding of how the training process for the model went.
+       </p>
+       	<div id="divleft" style="float: left;">
+        <img src="Ann(accuracy)labelled2.png" alt="accuracy">
+        </div>
+
+        <div id="divright" style="float: right;">
+        <img src="ANN(loss) labelled.png" alt="loss">
+        </div>
+  </main>
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_quarter first">
+      <h6 class="title">College Details</h6>
+      <address class="btmspace-15">
+      PES Modern College Of Engineering.<br>
+      Computer Department 2020<br>
+      1186/A, Off J.M. Road, Shivajinagar,<br>
+      Pune.<br>
+      411005
+      </address>
+      <ul class="nospace">
+        <li class="btmspace-10"><span class="fa fa-phone"></span> (020) 2553 3638</li>
+        <li><span class="fa fa-envelope-o"></span> pesmcoe@moderncoe.edu.in</li>
+	<p><a href="http://moderncoe.edu.in/">Website &raquo;</a></p>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Guide Details</h6>
+      <ul class="nospace linklist">
+        <li><b>Project Guide:</b></li>
+        <li>Mr. Santosh Nagargoje</li><br>
+        
+        
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">From The Blog</h6>
+      <article>
+        <h2 class="font-x1 nospace"><a href="#">Date</a></h2>
+        <time class="smallfont" datetime="2020-02-09">Sunday, 6<sup>th</sup>February 2020</time>
+      
+        <p>  
+        <h2 class="font-x1 nospace"><a href="#">Group Id</a></h2>
+        <p>02</p>
+        </p>
+
+      </article>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Grab Our Newsletter</h6>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          
+          <button type="submit" onclick="reDirect()" value="submit">Project Article!</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<div id="preloader"><div></div></div><!-- Basic page preloader -->
+<script>$(window).load(function(){$("#preloader div").delay(500).fadeOut();$("#preloader").delay(800).fadeOut("slow");});</script>
+<!-- / Homepage specific -->
+</body>
+</html>
