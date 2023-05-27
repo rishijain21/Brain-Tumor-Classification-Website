@@ -1,2 +1,2 @@
 # Brain-Tumor-Classification-Website
-URL:  https://braintumorclassification.herokuapp.com/
+URL: https://sartajbhuvaji.github.io/Brain-Tumor-Classification-Website/
